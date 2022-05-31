@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+//@font-face {
+//  font-family: "Oxygen";
+//  src: local("Oxygen"), url(./assets/fonts/Oxygen/Oxygen-Regular.ttf) format("truetype");
+//}
+
+body {
+  font-family: OpenSans, sans-serif;
+  font-size: clamp(1.2rem, 1.5vw, 2rem);
+}
