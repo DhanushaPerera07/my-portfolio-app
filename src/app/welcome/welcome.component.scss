@@ -1,27 +1,36 @@
 :host {
   //background-color: lightgreen;
   //font-style: italic;
-  width: 100%;
+  //height: 100vh;
+}
+
+.welcome{
+  //width: 100%;
   height: 100vh;
 }
 
-.dhanushas-image {
-  width: 100%;
-  //height: 100%;
+.welcome-body{
+  align-self: center;
+  //padding: 0 1rem;
 }
 
-.welcome-body {
-  display: flex;
-  align-items: center;
-}
+//.dhanushas-image {
+//  width: 100%;
+//  //height: 100%;
+//}
 
-.accounts-container {
-  //display: flex;
-  //background-color: red;
-  width: 100%;
-  align-items: center;
+//.welcome-body {
+//  display: flex;
+//  align-items: center;
+//}
 
-  & a {
-    padding: 0 0.5rem;
-  }
-}
+//.accounts-container {
+//  //display: flex;
+//  //background-color: red;
+//  width: 100%;
+//  align-items: center;
+//
+//  & a {
+//    padding: 0 0.5rem;
+//  }
+//}
