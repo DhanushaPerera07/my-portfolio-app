@@ -1,5 +1,27 @@
 :host {
-  background-color: lightgreen;
+  //background-color: lightgreen;
   //font-style: italic;
+  width: 100%;
   height: 100vh;
+}
+
+.dhanushas-image {
+  width: 100%;
+  //height: 100%;
+}
+
+.welcome-body {
+  display: flex;
+  align-items: center;
+}
+
+.accounts-container {
+  //display: flex;
+  //background-color: red;
+  width: 100%;
+  align-items: center;
+
+  & a {
+    padding: 0 0.5rem;
+  }
 }

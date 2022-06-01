@@ -7,19 +7,25 @@ import { HomeComponent } from './home/home.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { AboutmeComponent } from './aboutme/aboutme.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NavigationComponent } from './navigation/navigation.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatIconModule} from "@angular/material/icon";
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     WelcomeComponent,
-    AboutmeComponent
+    AboutmeComponent,
+    NavigationComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    NgbModule
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        NgbModule,
+        BrowserAnimationsModule,
+        MatIconModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

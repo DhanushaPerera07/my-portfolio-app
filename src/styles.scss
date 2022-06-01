@@ -8,7 +8,21 @@
 //  src: local("Oxygen"), url(./assets/fonts/Oxygen/Oxygen-Regular.ttf) format("truetype");
 //}
 
+//body {
+//  font-family: OpenSans, sans-serif;
+//  font-size: clamp(0.8rem, 1vw, 2rem);
+//  background-color: #f4f3f3;
+//  //position: relative;
+//}
+
+html, body {
+  height: 100%;
+}
+
 body {
+  margin: 0;
   font-family: OpenSans, sans-serif;
-  font-size: clamp(1.2rem, 1.5vw, 2rem);
+  font-size: clamp(0.8rem, 1vw, 2rem);
+  background-color: #f4f3f3;
+  //font-family: Roboto, "Helvetica Neue", sans-serif;
 }
