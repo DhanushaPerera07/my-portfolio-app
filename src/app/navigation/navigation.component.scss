@@ -2,14 +2,18 @@ $dark-font-color: #222831;
 $highlight-green: yellowgreen;
 
 :host {
-  position: absolute;
-  float: right;
-  width: 100%;
-  padding-left: 10rem;
+  //position: absolute;
+  //float: right;
+  //width: 100%;
+  //padding-left: 10rem;
 }
 
 .navigation-div{
-  padding-right: 2rem;
+  position: absolute;
+  float: right;
+  width: 100%;
+  padding: 1rem 1rem 0 0;
+  //padding-right: 1rem;
 }
 
 ul>li>a {
