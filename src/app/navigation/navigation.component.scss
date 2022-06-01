@@ -1,0 +1,23 @@
+$dark-font-color: #222831;
+$highlight-green: yellowgreen;
+
+:host {
+  position: absolute;
+  float: right;
+  width: 100%;
+  padding-left: 10rem;
+}
+
+.navigation-div{
+  padding-right: 2rem;
+}
+
+ul>li>a {
+  color: $dark-font-color;
+  text-transform: capitalize;
+  font-size: clamp(1rem, 1.2vw, 2rem);
+}
+
+ul>li:hover {
+  border-bottom: 2px solid $highlight-green;
+}
