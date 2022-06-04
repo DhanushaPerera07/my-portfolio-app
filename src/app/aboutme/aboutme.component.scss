@@ -4,10 +4,12 @@
 //}
 
 .aboutme {
-  height: 100vh;
+  //height: 100vh;
 }
 
 .about-me-image {
+  max-width: 800px;
+  min-width: 350px;
   width: 100%;
 }
 
