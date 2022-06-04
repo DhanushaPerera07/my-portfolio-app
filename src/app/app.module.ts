@@ -12,6 +12,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatIconModule} from "@angular/material/icon";
 import {ExperienceComponent} from './experience/experience.component';
 import {CommonModule} from "@angular/common";
+import { EducationComponent } from './education/education.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import {CommonModule} from "@angular/common";
     WelcomeComponent,
     AboutmeComponent,
     NavigationComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    EducationComponent
   ],
   imports: [
     BrowserModule,

@@ -9,17 +9,17 @@
         </div>
 <!--        <section *ngFor="let experience of experiences" class="employment-records-section">-->
           <div *ngFor="let experience of experiences" class="row employee-image employment-records-section">
-            <div class="col-sm-12 py-sm-4 col-md-5 py-md-0 col-lg-4 col-12">
+            <div class="col-sm-12 py-sm-4 col-md-5 py-md-0 col-lg-3 col-12">
               <img class="image-of-the-employee" src="{{experience.imageUrl}}" alt="{{experience.imageAlt}}"/>
             </div>
-            <div class="col-sm-8 col-md-5 col-lg-6 col-8 experience-content">
+            <div class="col-sm-8 col-md-5 col-lg-5 col-12 experience-content">
               <h2>{{experience.workedAs}}</h2>
               <h3>{{experience.company}}</h3>
               <h4>{{experience.location}}</h4>
             </div>
-            <div class="col-sm-4 col-md-2 col-lg-2 col-4 employment-duration">
-              <h3>{{experience.since}}</h3>
-              <h3>{{experience.to}}</h3>
+            <div class="col-sm-4 col-md-2 col-lg-4 col-12 employment-duration">
+                <h3>{{experience.since}}</h3>
+                <h3>{{experience.to}}</h3>
             </div>
           </div>
 <!--        </section>-->
