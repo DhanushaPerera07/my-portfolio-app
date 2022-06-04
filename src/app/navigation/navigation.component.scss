@@ -19,7 +19,7 @@ $highlight-green: yellowgreen;
 ul>li>a {
   color: $dark-font-color;
   text-transform: capitalize;
-  font-size: clamp(1rem, 1.2vw, 2rem);
+  font-size: clamp(1rem, 1vw, 2rem);
 }
 
 ul>li:hover {
