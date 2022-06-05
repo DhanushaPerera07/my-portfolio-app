@@ -25,7 +25,7 @@ export class EducationComponent implements OnInit {
       location: 'Kelaniya',
       yearFrom: 'August - 2016',
       yearTo: '',
-      imageUrl: '/assets/images/education-institute/sri-dharmaloka-collage-logo.jfif',
+      imageUrl: '/assets/images/education-institute/SDC-logo.png',
       imageAlt: 'SLIIT logo'
     }
   ];

@@ -21,7 +21,7 @@ export class ExperienceComponent implements OnInit {
       workedAs: 'Assistant Junior Executive - Fabric Testing',
       company: 'Ocean Lanka (PVT) LTD',
       location: 'BOI - Biyagama',
-      imageUrl: '/assets/images/employer-logos/ocean-lanka-logo-1.jpg',
+      imageUrl: '/assets/images/employer-logos/ocean lanka logo.jpg',
       imageAlt: 'Company logo',
       since: 'Feb - 2018',
       to: 'Jul - 2018'
