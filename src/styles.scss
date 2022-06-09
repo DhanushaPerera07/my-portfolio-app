@@ -3,6 +3,9 @@
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
 
+/* Import bootstrap-icons CSS file.*/
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
 //@font-face {
 //  font-family: "Oxygen";
 //  src: local("Oxygen"), url(./assets/fonts/Oxygen/Oxygen-Regular.ttf) format("truetype");
