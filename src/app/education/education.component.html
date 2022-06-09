@@ -1,0 +1,34 @@
+<div class="container py-4">
+  <div class="row experience">
+    <div class="col">
+      <div class="container-fluid p-0">
+        <div class="row">
+          <div class="col">
+            <h1>Education</h1>
+          </div>
+        </div>
+        <!--        <section *ngFor="let experience of experiences" class="employment-records-section">-->
+        <div *ngFor="let educationElm of education" class="row institute-image education-records-section">
+          <div class="col-sm-12 py-sm-4 col-md-5 py-md-0 col-lg-3 col-12">
+            <img class="image-of-the-education-provider" src="{{educationElm.imageUrl}}" alt="{{educationElm.imageAlt}}"/>
+          </div>
+          <div class="col-sm-8 col-md-5 col-lg-5 col-12 education-content">
+            <h2>{{educationElm.head}}</h2>
+            <h3>{{educationElm.degree}}</h3>
+            <h4>{{educationElm.institute}}</h4>
+            <h5>{{educationElm.location}}</h5>
+          </div>
+          <div class="col-sm-4 col-md-2 col-lg-4 col-12 education-duration">
+            <h3>{{educationElm.yearFrom}}</h3>
+            <h3>{{educationElm.yearTo}}</h3>
+          </div>
+        </div>
+        <!--        </section>-->
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
