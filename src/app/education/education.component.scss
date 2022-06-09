@@ -1,9 +1,13 @@
 
 .image-of-the-education-provider{
 
-  object-fit: contain;
+  max-width: 375px;
+  min-width: 200px;
   width: 100%;
-  height: 200px;
+
+  //object-fit: contain;
+  //width: 100%;
+  //height: 200px;
 
   //max-width: 300px;
   //max-height: 300px;
