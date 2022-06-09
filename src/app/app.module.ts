@@ -12,7 +12,10 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatIconModule} from "@angular/material/icon";
 import {ExperienceComponent} from './experience/experience.component';
 import {CommonModule} from "@angular/common";
-import { EducationComponent } from './education/education.component';
+import {EducationComponent} from './education/education.component';
+import {ProjectComponent} from './project/project.component';
+import {ProjectHolderComponent} from './project/project-holder/project-holder.component';
+import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,9 @@ import { EducationComponent } from './education/education.component';
     AboutmeComponent,
     NavigationComponent,
     ExperienceComponent,
-    EducationComponent
+    EducationComponent,
+    ProjectComponent,
+    ProjectHolderComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +35,8 @@ import { EducationComponent } from './education/education.component';
     NgbModule,
     BrowserAnimationsModule,
     MatIconModule,
-    CommonModule
+    CommonModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
