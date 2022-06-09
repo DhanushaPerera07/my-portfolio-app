@@ -1,0 +1,17 @@
+.project-container {
+  height: 100vh;
+  //background-color: lightcoral;
+  padding: 2rem;
+
+  & .project-description > p {
+    text-align: justify;
+  }
+}
+
+.project-image {
+  width: 100%;
+}
+
+.project-links {
+  font-size: 2rem;
+}
