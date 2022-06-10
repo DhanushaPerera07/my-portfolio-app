@@ -17,6 +17,7 @@ import {ProjectComponent} from './project/project.component';
 import {ProjectHolderComponent} from './project/project-holder/project-holder.component';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 import { ReflectiveJournalComponent } from './reflective-journal/reflective-journal.component';
+import { CareerDevelopmentPlanComponent } from './career-development-plan/career-development-plan.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { ReflectiveJournalComponent } from './reflective-journal/reflective-jour
     EducationComponent,
     ProjectComponent,
     ProjectHolderComponent,
-    ReflectiveJournalComponent
+    ReflectiveJournalComponent,
+    CareerDevelopmentPlanComponent
   ],
   imports: [
     BrowserModule,
