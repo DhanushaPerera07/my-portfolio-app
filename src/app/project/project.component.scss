@@ -1,1 +1,14 @@
 
+.carousel-caption > * {
+  color: #222831;
+}
+
+/* change the NavigationIndicator color. */
+:host ::ng-deep .carousel-indicators button {
+  background-color: #222831 !important;
+  /*more custom style*/
+}
+
+.carousel-indicators .active {
+  background-color: grey !important;
+}

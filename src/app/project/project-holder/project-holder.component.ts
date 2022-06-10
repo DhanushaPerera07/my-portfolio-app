@@ -1,6 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 
 import { faAngular } from '@fortawesome/free-brands-svg-icons';
+import {Project} from "../../model/project.model";
 
 @Component({
   selector: 'app-project-holder',
@@ -8,6 +9,8 @@ import { faAngular } from '@fortawesome/free-brands-svg-icons';
   styleUrls: ['./project-holder.component.scss']
 })
 export class ProjectHolderComponent implements OnInit {
+
+  @Input('project') project!: Project;
 
   faAngular = faAngular;
 

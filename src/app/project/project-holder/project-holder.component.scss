@@ -1,10 +1,24 @@
 .project-container {
-  height: 100vh;
+  //height: 100vh;
+  min-height: 80vh;
   //background-color: lightcoral;
   padding: 2rem;
 
   & .project-description > p {
     text-align: justify;
+  }
+}
+
+.tech-stack{
+
+  & .tech-stack-container{
+    display: flex;
+    column-gap: 0.5rem;
+  }
+
+  & .badge {
+    background-color: limegreen;
+    color: white;
   }
 }
 
@@ -14,4 +28,13 @@
 
 .project-links {
   font-size: 2rem;
+}
+
+.links-section{
+
+
+  & .links-container{
+    display: flex;
+    column-gap: 0.5rem;
+  }
 }
